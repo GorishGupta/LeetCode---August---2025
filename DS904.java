@@ -21,6 +21,6 @@ public class DS904 {
         DS904 solution = new DS904();
         int[] fruits = { 1, 2, 1 };
         int result = solution.totalFruit(fruits);
-        System.out.println(result); // Output: 3
+        System.out.println(result); // Output: 3D
     }
 }
