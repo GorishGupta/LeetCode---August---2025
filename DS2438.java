@@ -29,11 +29,9 @@ public class DS2438 {
 
     public static void main(String[] args) {
         DS2438 obj = new DS2438();
-
         int n = 39;
         int[][] queries = { { 0, 1 }, { 1, 2 }, { 0, 2 } };
         int[] results = obj.productQueries(n, queries);
-
         for (int res : results) {
             System.out.println(res);
         }
