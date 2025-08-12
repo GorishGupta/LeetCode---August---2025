@@ -13,6 +13,9 @@ public class DS2787 {
         return (int) dp[n];
     }
 
+    // main Function to test the implementation
+    // This function is not part of the original problem but is added for testing
+    // purposes.
     public static void main(String[] args) {
         DS2787 obj = new DS2787();
         int n = 10;
