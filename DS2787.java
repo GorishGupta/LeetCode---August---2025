@@ -1,4 +1,6 @@
 public class DS2787 {
+    // solution for the Problem DS2787: Number of Ways to Express a Number as the
+    // Sum of Unique Integers Raised to a Power
     private static final int MOD = 1_000_000_007;
 
     public int numberOfWays(int n, int x) {
