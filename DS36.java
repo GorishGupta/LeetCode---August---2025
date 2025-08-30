@@ -1,4 +1,6 @@
-class DS36 {
+import java.util.*;;
+
+public class DS36 {
     public boolean isValidSudoku(char[][] board) {
         HashSet<Character>[] rows = new HashSet[9];
         HashSet<Character>[] cols = new HashSet[9];
@@ -29,5 +31,9 @@ class DS36 {
         }
 
         return true;
+    }
+
+    public static void main(String[] args) {
+
     }
 }
