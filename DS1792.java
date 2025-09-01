@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class DS1792 {
     public double maxAverageRatio(int[][] classes, int extraStudents) {
         PriorityQueue<ClassRecord> pq = new PriorityQueue<>(new Compare());
