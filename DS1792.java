@@ -53,4 +53,11 @@ class Compare implements Comparator<ClassRecord> {
             return 0;
         }
     }
+
+    public static void main(String[] args) {
+        DS1792 obj = new DS1792();
+        int[][] classes = { { 1, 2 }, { 3, 5 }, { 2, 2 } };
+        int extraStudents = 2;
+        System.out.println(obj.maxAverageRatio(classes, extraStudents));
+    }
 }
